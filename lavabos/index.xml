@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lavabos on Venc el meu pis a Cassà</title>
+    <link>http://example.org/lavabos/</link>
+    <description>Recent content in Lavabos on Venc el meu pis a Cassà</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ca-ES</language><atom:link href="http://example.org/lavabos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lavabo</title>
+      <link>http://example.org/lavabos/lavabo1_1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/lavabos/lavabo1_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lavabo</title>
+      <link>http://example.org/lavabos/lavabo1_2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/lavabos/lavabo1_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lavabo</title>
+      <link>http://example.org/lavabos/lavabo1_3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/lavabos/lavabo1_3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lavabo</title>
+      <link>http://example.org/lavabos/lavabo2_1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/lavabos/lavabo2_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lavabo</title>
+      <link>http://example.org/lavabos/lavabo2_2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/lavabos/lavabo2_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lavabo</title>
+      <link>http://example.org/lavabos/lavabo2_3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/lavabos/lavabo2_3/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

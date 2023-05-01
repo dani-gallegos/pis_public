@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Venc el meu pis a Cassà</title>
+    <link>http://example.org/home/</link>
+    <description>Recent content in Homes on Venc el meu pis a Cassà</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ca-ES</language><atom:link href="http://example.org/home/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cuina</title>
+      <link>http://example.org/home/cuina/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/home/cuina/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dormitoris</title>
+      <link>http://example.org/home/dormitoris/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/home/dormitoris/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lavabos</title>
+      <link>http://example.org/home/lavabos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/home/lavabos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Menjador</title>
+      <link>http://example.org/home/menjador/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/home/menjador/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pàrking</title>
+      <link>http://example.org/home/parking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/home/parking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terrassa</title>
+      <link>http://example.org/home/terrassa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/home/terrassa/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
