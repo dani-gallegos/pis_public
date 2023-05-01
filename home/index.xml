@@ -25,6 +25,15 @@
     </item>
     
     <item>
+      <title>Estudi</title>
+      <link>http://example.org/home/estudi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/home/estudi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Lavabos</title>
       <link>http://example.org/home/lavabos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -39,15 +48,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/home/menjador/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pàrking</title>
-      <link>http://example.org/home/parking/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/home/parking/</guid>
       <description></description>
     </item>
     

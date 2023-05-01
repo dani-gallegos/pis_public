@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://example.org/estudi/estudi_1/</loc>
+  </url><url>
     <loc>http://example.org/categories/</loc>
   </url><url>
     <loc>http://example.org/contacte/</loc>
@@ -36,6 +38,10 @@
   </url><url>
     <loc>http://example.org/home/dormitoris/</loc>
   </url><url>
+    <loc>http://example.org/home/estudi/</loc>
+  </url><url>
+    <loc>http://example.org/estudi/</loc>
+  </url><url>
     <loc>http://example.org/fitxa/</loc>
   </url><url>
     <loc>http://example.org/home/</loc>
@@ -67,8 +73,6 @@
     <loc>http://example.org/menjador/menjador_4/</loc>
   </url><url>
     <loc>http://example.org/menjador/</loc>
-  </url><url>
-    <loc>http://example.org/home/parking/</loc>
   </url><url>
     <loc>http://example.org/cuina/rentador/</loc>
   </url><url>
