@@ -95,14 +95,11 @@
           <p class="lead">Dúplex de 156 m<sup>2</sup> + pàrking de 2 places.</p>
           <p class="lead">Any de construcció 2006.</p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <a role="button" class="btn btn-primary btn-lg px-4 me-md-2" href="/contacte">Contacte</a>
-            <a role="button" class="btn btn-outline-secondary btn-lg px-4" href="/fitxa">Detalls de l'immoble</a>
+            <a role="button" class="btn btn-primary btn-lg px-4 me-md-2" href="/contacte">Contacta'ns</a>
           </div>
         </div>
       </div>
     </div>  
-  
-
   
 
   <div class="album py-5 bg-body-tertiary">
@@ -110,18 +107,19 @@
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
       
       
+        
           <div class="col">
               <div class="card shadow-sm" style="min-height: 370px;">
-                <a href="/terrassa">
+                <a data-bs-toggle="modal" data-bs-target="#fotosCarousel_terrassa" >
                   <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/img/terrassa_1.jpg">
                 </a>
                 <div class="card-body">
                     <p class="card-text">Terrassa</p>
-                    <p class="card-text">Terrassa orientada a sud amb porxo i gespa artificial.</p>
+                    <p class="card-text">Orientada a sud amb porxo i gespa artificial.</p>
                     
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">                        
-                          <a href="/terrassa"><button type="button" role="link" class="btn btn-sm btn-outline-secondary">Veure més fotos</button></a>                                                  
+                          <a data-bs-toggle="modal" data-bs-target="#fotosCarousel_terrassa"><button type="button" role="link" class="btn btn-sm btn-outline-secondary">Veure més fotos</button></a>                                                  
                       </div>
                     
                     </div>
@@ -129,11 +127,57 @@
                 </div>
               </div>
           </div>
+
+          
+          <div class="modal fade" id="fotosCarousel_terrassa" tabindex="-1" aria-labelledby="fotosCarouselLabel" aria-hidden="true">
+
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <div id="carousel_terrassa" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                      
+                      <div class="carousel-item  active ">
+                        <img src="/img/terrassa_1.jpg" class="d-block w-100"  alt="Terrassa">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/terrassa_2.jpg" class="d-block w-100"  alt="Terrassa">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/terrassa_3.jpg" class="d-block w-100"  alt="Terrassa">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/terrassa_4.jpg" class="d-block w-100"  alt="Terrassa">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/terrassa_5.jpg" class="d-block w-100"  alt="Terrassa">
+                      </div>
+                      
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel_terrassa" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel_terrassa" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
       
+        
           <div class="col">
               <div class="card shadow-sm" style="min-height: 370px;">
-                <a href="/estudi">
-                  <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/img/edifici_1.png">
+                <a data-bs-toggle="modal" data-bs-target="#fotosCarousel_estudi" >
+                  <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/img/estudi_1.jpg">
                 </a>
                 <div class="card-body">
                     <p class="card-text">Estudi</p>
@@ -141,7 +185,7 @@
                     
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">                        
-                          <a href="/estudi"><button type="button" role="link" class="btn btn-sm btn-outline-secondary">Veure més fotos</button></a>                                                  
+                          <a data-bs-toggle="modal" data-bs-target="#fotosCarousel_estudi"><button type="button" role="link" class="btn btn-sm btn-outline-secondary">Veure més fotos</button></a>                                                  
                       </div>
                     
                     </div>
@@ -149,19 +193,69 @@
                 </div>
               </div>
           </div>
+
+          
+          <div class="modal fade" id="fotosCarousel_estudi" tabindex="-1" aria-labelledby="fotosCarouselLabel" aria-hidden="true">
+
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <div id="carousel_estudi" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                      
+                      <div class="carousel-item  active ">
+                        <img src="/img/estudi_1.jpg" class="d-block w-100"  alt="">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/estudi_2.jpg" class="d-block w-100"  alt="">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/estudi_3.jpg" class="d-block w-100"  alt="">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/estudi_4.jpg" class="d-block w-100"  alt="">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/estudi_5.jpg" class="d-block w-100"  alt="">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/estudi_6.jpg" class="d-block w-100"  alt="">
+                      </div>
+                      
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel_estudi" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel_estudi" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
       
+        
           <div class="col">
               <div class="card shadow-sm" style="min-height: 370px;">
-                <a href="/menjador">
+                <a data-bs-toggle="modal" data-bs-target="#fotosCarousel_menjador" >
                   <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/img/menjador_1.jpg">
                 </a>
                 <div class="card-body">
                     <p class="card-text">Menjador</p>
-                    <p class="card-text">Menjador amb balcó i vistes.</p>
+                    <p class="card-text">Amb balcó i vistes.</p>
                     
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">                        
-                          <a href="/menjador"><button type="button" role="link" class="btn btn-sm btn-outline-secondary">Veure més fotos</button></a>                                                  
+                          <a data-bs-toggle="modal" data-bs-target="#fotosCarousel_menjador"><button type="button" role="link" class="btn btn-sm btn-outline-secondary">Veure més fotos</button></a>                                                  
                       </div>
                     
                     </div>
@@ -169,19 +263,61 @@
                 </div>
               </div>
           </div>
+
+          
+          <div class="modal fade" id="fotosCarousel_menjador" tabindex="-1" aria-labelledby="fotosCarouselLabel" aria-hidden="true">
+
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <div id="carousel_menjador" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                      
+                      <div class="carousel-item  active ">
+                        <img src="/img/menjador_1.jpg" class="d-block w-100"  alt="Menjador">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/menjador_2.jpg" class="d-block w-100"  alt="Menjador">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/menjador_3.jpg" class="d-block w-100"  alt="Menjador">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/menjador_4.jpg" class="d-block w-100"  alt="Menjador">
+                      </div>
+                      
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel_menjador" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel_menjador" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
       
+        
           <div class="col">
               <div class="card shadow-sm" style="min-height: 370px;">
-                <a href="/cuina">
+                <a data-bs-toggle="modal" data-bs-target="#fotosCarousel_cuina" >
                   <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/img/cuina_1.jpg">
                 </a>
                 <div class="card-body">
                     <p class="card-text">Cuina</p>
-                    <p class="card-text">Cuina amb forn microones i vitroceràmica.</p>
+                    <p class="card-text">Equipada amb forn, microones i vitroceràmica.</p>
                     
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">                        
-                          <a href="/cuina"><button type="button" role="link" class="btn btn-sm btn-outline-secondary">Veure més fotos</button></a>                                                  
+                          <a data-bs-toggle="modal" data-bs-target="#fotosCarousel_cuina"><button type="button" role="link" class="btn btn-sm btn-outline-secondary">Veure més fotos</button></a>                                                  
                       </div>
                     
                     </div>
@@ -189,10 +325,64 @@
                 </div>
               </div>
           </div>
+
+          
+          <div class="modal fade" id="fotosCarousel_cuina" tabindex="-1" aria-labelledby="fotosCarouselLabel" aria-hidden="true">
+
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <div id="carousel_cuina" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                      
+                      <div class="carousel-item  active ">
+                        <img src="/img/cuina_1.jpg" class="d-block w-100"  alt="Cuina">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/cuina_2.jpg" class="d-block w-100"  alt="Cuina">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/cuina_3.jpg" class="d-block w-100"  alt="Cuina">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/cuina_4.jpg" class="d-block w-100"  alt="Cuina">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/cuina_5.jpg" class="d-block w-100"  alt="Cuina">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/cuina_6.jpg" class="d-block w-100"  alt="Cuina">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/rentador.jpg" class="d-block w-100"  alt="Rentador">
+                      </div>
+                      
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel_cuina" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel_cuina" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
       
+        
           <div class="col">
               <div class="card shadow-sm" style="min-height: 370px;">
-                <a href="/dormitoris">
+                <a data-bs-toggle="modal" data-bs-target="#fotosCarousel_dormitoris" >
                   <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/img/dormitori1_1.jpg">
                 </a>
                 <div class="card-body">
@@ -201,7 +391,7 @@
                     
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">                        
-                          <a href="/dormitoris"><button type="button" role="link" class="btn btn-sm btn-outline-secondary">Veure més fotos</button></a>                                                  
+                          <a data-bs-toggle="modal" data-bs-target="#fotosCarousel_dormitoris"><button type="button" role="link" class="btn btn-sm btn-outline-secondary">Veure més fotos</button></a>                                                  
                       </div>
                     
                     </div>
@@ -209,10 +399,52 @@
                 </div>
               </div>
           </div>
+
+          
+          <div class="modal fade" id="fotosCarousel_dormitoris" tabindex="-1" aria-labelledby="fotosCarouselLabel" aria-hidden="true">
+
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <div id="carousel_dormitoris" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                      
+                      <div class="carousel-item  active ">
+                        <img src="/img/dormitori1_1.jpg" class="d-block w-100"  alt="Dormitoris">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/dormitori1_2.jpg" class="d-block w-100"  alt="Dormitoris">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/dormitori2_1.jpg" class="d-block w-100"  alt="Dormitoris">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/dormitori3_1.jpg" class="d-block w-100"  alt="Dormitoris">
+                      </div>
+                      
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel_dormitoris" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel_dormitoris" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
       
+        
           <div class="col">
               <div class="card shadow-sm" style="min-height: 370px;">
-                <a href="/lavabos">
+                <a data-bs-toggle="modal" data-bs-target="#fotosCarousel_lavabos" >
                   <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/img/lavabo1_1.jpg">
                 </a>
                 <div class="card-body">
@@ -221,7 +453,7 @@
                     
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">                        
-                          <a href="/lavabos"><button type="button" role="link" class="btn btn-sm btn-outline-secondary">Veure més fotos</button></a>                                                  
+                          <a data-bs-toggle="modal" data-bs-target="#fotosCarousel_lavabos"><button type="button" role="link" class="btn btn-sm btn-outline-secondary">Veure més fotos</button></a>                                                  
                       </div>
                     
                     </div>
@@ -229,11 +461,106 @@
                 </div>
               </div>
           </div>
+
+          
+          <div class="modal fade" id="fotosCarousel_lavabos" tabindex="-1" aria-labelledby="fotosCarouselLabel" aria-hidden="true">
+
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <div id="carousel_lavabos" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                      
+                      <div class="carousel-item  active ">
+                        <img src="/img/lavabo1_1.jpg" class="d-block w-100"  alt="Lavabo">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/lavabo1_2.jpg" class="d-block w-100"  alt="Lavabo">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/lavabo1_3.jpg" class="d-block w-100"  alt="Lavabo">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/lavabo2_1.jpg" class="d-block w-100"  alt="Lavabo">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/lavabo2_2.jpg" class="d-block w-100"  alt="Lavabo">
+                      </div>
+                      
+                      <div class="carousel-item ">
+                        <img src="/img/lavabo2_3.jpg" class="d-block w-100"  alt="Lavabo">
+                      </div>
+                      
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel_lavabos" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel_lavabos" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
       
 
       </div>
     </div>
   </div>
+
+  <div class="container col-xxl-8 px-4 py-5">
+
+    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Dades de l'immoble</h1>
+    <p class="lead">Dúplex de 156 m<sup>2</sup> + pàrking de 2 places.</p>
+    <p class="lead">Any de construcció 2006.</p>
+
+    <h2>Preu de venda: 270.000 €</h2>
+    <p>Any de construcció: 2006</p>
+    <p>Superfícies:</p>
+    <ul>
+        <li>Planta pis: Format per rebedor, cuina, menjador, 3 habitacions i 2 lavabos complets, un en suite. Superfície total de 95 m<sup>2</sup></li>
+        <li>Planta dúplex: Format per estudi de 30 m<sup>2</sup>, sotacobert de 30 m<sup>2</sup> i terrassa de 48 m<sup>2</sup></li>
+        <li>Repercussió d'elements comuns de l'edifici: 25 m<sup>2</sup></li>    
+        <li>Pàrking de dues places: 22,70 m<sup>2</sup>, 8,30 x 2,75 </li>
+    </ul>
+    <h6>Estances:</h6>
+    <ul>
+        <li>Habitació doble amb lavabo en suite i armaris empotrats.</li>
+        <li>Habitació doble amb armaris empotrats.</li>
+        <li>Habitació individual.</li>
+        <li>Estudi a la planta 2 de 30 m<sup>2</sup>.</li>
+        <li>Menjador amb balcó.</li>
+        <li>Cuina amb rentador incorporat en un armari.</li>
+        <li>Lavabo amb dutxa de recent renovació.</li>
+        <li>Lavabo amb banyera.</li>
+        <li>Sotacobert per guardar mals endreços de 30 m<sup>2</sup> aproximadament.</li>
+        <li>Terrassa de 48 m<sup>2</sup> amb vistes al Montseny, Llagostera i a l'Església de Cassà.</li>
+    </ul>
+    <h6>Altres aspectes a destacar:</h6>
+    <ul>
+        <li>Escala de 6 veïns amb ascensor.</li>
+        <li>Aire acondicionat: controlable de forma remota.</li>
+        <li>Calefacció amb caldera de gas i radiadors. Controlable de forma remota.</li>
+        <li>Domòtica: control integral de la climatització.</li>
+        <li>Tots els serveis.</li>
+        <li>Proximitat a la llar d'infants, col·legis i supermercats.</li>
+    </ul>
+
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">          
+        <a role="button" class="btn btn-primary btn-lg px-4 me-md-2" href="/contacte">Contacta'ns</a>
+    </div>
+
+</div>  
+
+
 
 
 

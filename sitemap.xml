@@ -4,6 +4,16 @@
   <url>
     <loc>http://example.org/estudi/estudi_1/</loc>
   </url><url>
+    <loc>http://example.org/estudi/estudi_2/</loc>
+  </url><url>
+    <loc>http://example.org/estudi/estudi_3/</loc>
+  </url><url>
+    <loc>http://example.org/estudi/estudi_4/</loc>
+  </url><url>
+    <loc>http://example.org/estudi/estudi_5/</loc>
+  </url><url>
+    <loc>http://example.org/estudi/estudi_6/</loc>
+  </url><url>
     <loc>http://example.org/categories/</loc>
   </url><url>
     <loc>http://example.org/contacte/</loc>
@@ -21,6 +31,8 @@
     <loc>http://example.org/cuina/cuina_4/</loc>
   </url><url>
     <loc>http://example.org/cuina/cuina_5/</loc>
+  </url><url>
+    <loc>http://example.org/cuina/cuina_6/</loc>
   </url><url>
     <loc>http://example.org/home/cuina/</loc>
   </url><url>
@@ -41,8 +53,6 @@
     <loc>http://example.org/home/estudi/</loc>
   </url><url>
     <loc>http://example.org/estudi/</loc>
-  </url><url>
-    <loc>http://example.org/fitxa/</loc>
   </url><url>
     <loc>http://example.org/home/</loc>
   </url><url>
